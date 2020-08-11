@@ -1,0 +1,217 @@
+:root{
+	--color-rojo:#c9302c;
+	--color-azul:#00acb3;
+}
+header{
+	background-color: #f8f9fb;
+	text-align: center;
+}
+
+body{
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+#sweat{
+	margin-top: 7%;
+	background-image: url("../img/bg_girl.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	padding: 10% 0;
+}
+
+#sweat h1{
+	font-size: 60px;
+	line-height: 1.5;
+}
+
+#sweat p{
+	width: 50%;
+	margin-bottom: 10%;
+}
+
+.btn-blanco{
+	padding: 3%;
+	color: var(--color-azul);
+	border-radius: 5px;
+}
+
+.btn-azul{
+	padding: 3%;
+	background-color:  var(--color-azul);
+	color: #fff;
+	border-radius: 5px;
+}
+
+.titulo{
+	 font-family: 'Roboto', sans-serif;
+	margin-bottom: 5%;
+	text-align: center;
+	padding: 5% 0;
+	font-size: 40px;
+	
+}
+
+#classes{
+	background-color: #f8f9fb;
+	padding: 5% 0;
+	color:  var(--color-azul);
+	text-align: center;
+}
+
+#classes img{
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.fondo-blanco{
+	background-color: #fff;
+	padding: 3%;
+}
+
+#classes h2{
+	color:rgba(111,109,109,1.00);
+}
+
+.btn-rojo{
+	padding: 3%;
+	background-color: var(--color-rojo);
+	color: #fff;
+	border-radius: 5px;
+}
+
+#extra{
+	background-color: #252830;
+	padding: 10%;
+}
+
+#extra h2{
+	color: #fff;
+}
+
+.btn-transparente{
+	padding: 3%;
+	background-color: transparent;
+	border:2px solid  var(--color-azul);
+	border-radius: 5px;
+	color:  #00acb3;
+	margin-top: 5% !important;
+}
+
+#fitness{
+	background-image: url("../img/health-fitness.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.section{
+	padding: 15%;
+}
+
+#fitness h3{
+	font-size: 20px;
+	color:   var(--color-azul);
+	padding: 1% 0;
+}
+
+.transparente-blanco{
+	background-color: rgba(243,243,243,0.68);
+	padding: 5%;
+}
+
+#fitness h2{
+	 font-family: 'Roboto', sans-serif;
+	margin-bottom: 2%;;
+	padding: 5% 0;
+	font-size: 40px;
+	text-align: justify;
+	color:rgba(111,109,109,1.00);
+	font-weight: 300;
+}
+
+#fitness p{
+	margin-bottom: 15%;
+}
+
+.carousel-shots .active img{
+	opacity: 0.6;
+	transform: scale(0.8);
+}
+
+.carousel-shots .active.center img{
+	opacity: 1;
+	transform: scale(1);
+	
+}
+
+.carousel{
+	width: 80%;
+	height: 60%;
+	margin: auto;
+}
+
+#our-trainers{
+	color: #fff;
+	background-color: #252830;
+	padding-bottom: 5%;
+}
+
+#our-trainers p{
+	padding-bottom: 5%;
+}
+
+#contact-us{
+	background-image: url("../img/bg-map.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+}
+
+#contact-us h2{
+	margin-top: -20px;
+	font-size: 40px;
+	
+}
+
+#contact-us i{
+	padding-right: 5px;
+}
+
+.info{
+	padding: 5%;
+}
+
+#subscribe form{
+	margin: auto;
+	align-content: center;
+	text-align: center;
+}
+
+.lista-redes a{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 100%;
+	background-color: #ccc;
+	display: block;
+}
+
+footer i{
+	color: #727272;
+	margin: auto;
+}
+footer i:hover{
+	color: var(--color-rojo) ;
+	
+}
+
+footer{
+	padding: 5% 0;
+	margin: auto;
+	text-align: center;
+	align-content: center;
+}
